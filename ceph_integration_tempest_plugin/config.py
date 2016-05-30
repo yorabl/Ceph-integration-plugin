@@ -13,3 +13,9 @@
 #    License for the specific language governing permissions and limitations
 #    under the License.
 
+
+from oslo_config import cfg
+
+
+service_available_group = cfg.OptGroup(name="service_available",
+                                       title="Available OpenStack Services")
