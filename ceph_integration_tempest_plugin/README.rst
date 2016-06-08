@@ -13,7 +13,7 @@ while validating the actions on both Openstack and Ceph storage.
 
 * Ceph integration plugin should be able to run against a cloud that uses RBD
 as Glance's default store, Nova's images type (with Libvirt) and a Cinder back
-end
+end.
 * The plugin should be explicit in testing features and functionalities. It is
 easier to discover and debug failures when each function is atomic
 * The plugin uses Openstack python clients, it will not use API tools that
