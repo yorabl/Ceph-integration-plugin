@@ -17,3 +17,4 @@ while validating the actions on both Openstack and Ceph storage.
 * The plugin uses Openstack public interfaces.
 * The plugin should not change the database directly
 * The plugin will clean up after itself, as a rule
+* The plugin will verify every storage related action on the Ceph storage as well, using RBD
